@@ -1,0 +1,23 @@
+
+ %***************************************************************************%
+ %                                                                           %
+ %       Copyright (C) 2013, 2014 Linas Vepstas                              %
+ %                                                                           %
+ %  See file "README" for information about commercial use of this system    %
+ %                                                                           %
+ %***************************************************************************%
+
+% Dictionary version number is 5.1.0 (formatted as V5v1v0+)
+<dictionary-version-number>: V5v1v0+;
+
+EMPTY-WORD.zzz: ZZZ-;
+
+LEFT-WALL: ANY+;
+ANY-WORD: {@ANY-} & {@ANY+};
+ANY-PUNCT: {@ANY-} & {@ANY+};
+
+JUNK: {@ANY-} & {@ANY+};
+
+
+MOR-SUFF: LL- & {@ANY-} & {@ANY+};
+MOR-STEM: LL+;
